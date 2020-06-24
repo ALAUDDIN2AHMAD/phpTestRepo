@@ -1,0 +1,17 @@
+<?php
+$x = 14;
+$k = 17;
+$z = Null;
+if($x < $k   xor  $x ==  $k)// (xor means either NOT Both is true) , 
+//(&& means and) // (Or means either or Both is true)
+{    $z = $k + $x ; } //الشرط الذى بعد كلمة إف يكون بين قوسين دائريين 
+  // و الأوامر تحتها بين قوسين معقوفتين و كل أمر ينتهى بفاصلة منقوطه  
+elseif ($x < $k)   //else if(),also can do
+{ 
+    $z = $k - $x ; 
+}
+else { 
+    $z = "They are equal";
+}
+echo $z ;
+?>
